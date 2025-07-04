@@ -1,0 +1,131 @@
+html,*, body {
+    padding: 0;
+    margin: 0;
+    font-family: tahoma;
+}
+.header {
+    background-color: black;
+    font-weight: bold;
+    padding: 15px;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+.header-title {
+    text-decoration: none;
+    color: azure;
+}
+.header:hover {
+    background-color: blue;
+}
+.judul {
+    background-color: black;
+    color: rgb(12, 178, 87);
+    font-weight: bold;
+    padding: 15px;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.berita-1 {
+    text-align: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+
+}
+.paragraf-artikel {
+    margin-top: 5px;
+    text-align: justify;
+    flex-wrap: wrap;
+    margin: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.penulis {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.tanggal {
+    display: flex;
+    justify-content: center;
+    color: coral;
+    font-weight: bold;
+}
+.konten {
+    border: 3px solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+}
+
+img {
+    width: 250px;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.artikel-1 {
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border: 3px solid;
+    background-color: coral;
+}
+.sub-artikel-1 {
+    font-size: 18px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+}
+.paragraf-index {
+    display: flex;
+    justify-content: center; 
+}
+.href {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+.href:hover {
+    color: aqua;
+}
+.foto-artikel {
+    margin-left: 20%;
+    margin-top: 50px;
+    width: 70%;
+    height: 70%;
+}
+.foto-wahana {
+    flex-wrap: wrap;
+    width: 50%;
+
+}
+.penjelasan {
+    justify-content: center;
+    font-weight: bold;
+    display: flex;
+    margin-bottom: 15px;
+}
+.foto-storage {
+    margin-left: 25%;
+    margin-top: 50px;
+    width: 50%;
+    height: 50%;
+ 
+
+}
+.logo-header {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+    cursor: pointer;
+}
